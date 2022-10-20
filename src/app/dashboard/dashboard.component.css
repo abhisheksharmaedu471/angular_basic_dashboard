@@ -1,0 +1,23 @@
+mat-card {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 8px;
+    border-radius: 15px;
+  }
+  
+.carding{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    column-gap: 10px;
+    background-color: rgb(229, 247, 247);
+    align-items: center;
+    justify-content: space-around;
+}
+  
+mat-card-title{
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+}
