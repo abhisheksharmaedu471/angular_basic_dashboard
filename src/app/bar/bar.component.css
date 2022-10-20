@@ -1,0 +1,47 @@
+button{
+border-radius: 35px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: lightgray;
+    margin-right: 100px;
+  }
+  
+  li {
+    float: left;
+    border-right:1px ;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: orange;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .last{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+  }
+  button{
+    margin-right: 30px;
+  }
